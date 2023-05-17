@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
+
+body {
+    background-color: rgb(36, 36, 36);
+    font-family: 'Jura', sans-serif;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+button {
+    display: inline-block;
+    padding: 0.5em 1.7em;
+    margin: 0 0.1em 0.1em 0;
+    border: 0.16em solid rgb(255, 255, 255);
+    border-radius: 2em;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-family: 'Jura', sans-serif;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+    text-align: center;
+    transition: all 0.2s;
+    color: #ffffff;
+    background-color: transparent;
+  }
+  button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black; 
+  }
+  button:hover > a{
+    color: black; 
+    font-weight: 400;
+  }
+  a:link {
+    color:#ffffff;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+input[type="date"]{
+    background-color: #975f9f;
+    padding: 7px 10px;
+    font-family: 'Jura', sans-serif;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
